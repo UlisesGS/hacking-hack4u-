@@ -1,0 +1,18 @@
+#comando - 'whoami'
+para saber con que usuario estamos.
+
+# comando - 'id'
+muestra los grupos que pertenece nuestro usuario (betr4l). cuando compremetemos una maquina linuxver en todo momento en que grupo estamos, porque hay lgun que otro
+grupo que puede ser riesgoso.
+POR EJEMPLO: el grupo Sudo pertenece a nuestro usuario, si hacemos 'sudo su', nos va a pedir la contraseña del usuario y asi estar como root osea usuario privilegiado
+(una vez que vulneras el sistema intentas rootearla, osea agarrar al usuario con mas privilegios y hacer lo que quieras).
+
+#comando - 'exit'
+es para salir de la sesion actual.
+
+#comando - 'cat'...ruta de archivo
+sirve para listar el contenido que tenga un archivo.
+. Q para salir de la lista.
+
+.FILTRANDO 'cat'...ruta de archivo '| grep "nombre de archivo en especifico de la lista"' -n.
+se usa mas que nada cuando la lista tiene muchos archivos y buscamos una en especifico, el -n nos muestra en que linea de la lista esta.
