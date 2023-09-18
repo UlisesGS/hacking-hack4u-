@@ -16,3 +16,6 @@ sirve para listar el contenido que tenga un archivo.
 
 .FILTRANDO 'cat'...ruta de archivo '| grep "nombre de archivo en especifico de la lista"' -n.
 se usa mas que nada cuando la lista tiene muchos archivos y buscamos una en especifico, el -n nos muestra en que linea de la lista esta.
+
+#comando - 'which'...algo
+sirve para saber la ubicacion de un comando

@@ -1,0 +1,22 @@
+#si por ejempo - 'which whoami' no funciona
+significa que which no existe, hay que usar 'command -v whoami'.
+
+#comando - 'pwd'
+para saber en que ruta estamos parados
+
+#comando - 'ls'
+para saber que directorios o archivos o etc tiene en donde estamos parados
+. tambien despues de ls podemos especificar una ruta, para ver que es lo que contiene, por ejemplo 'ls /ruta'.
+
+#comando - 'ls -l'
+muestra detalladamente informacion de los directorios o archivos o etc que contiene el directorio en el cual estamos parados.
+
+#comando - 'cd'
+para acceder a un directorio, 'cd ..' para volver hacia tras.
+
+#comando - 'cat /etc/passwd'
+para ver todos los usuarios que hay en el sistema operativo, por ejemplo al principio de las lineas te muestra el id ,luego
+te muestra en que ruta esta guardado y por ultimo el tipo de shell que utiliza.
+
+#comando - 'cat /etc/shells'
+para ver los tipos de shells existentes.

@@ -1,0 +1,25 @@
+#comando - ';'
+el ; sirve para hacer mas de una cosa al mismo tiempo, por ejemplo si hacemos 'whoami; ls'
+nos va a decir en donde estamos parados y nos va a listar que es lo que tiene.
+
+#comando - '&&' (and)
+este solo funciona si el primer comando se ejecuta de formna exitosa y luego ejecuta el segundo,
+por ejemplo 'whoami && ls' si whoami falla no ejecutara el ls.
+
+#comando - '||' (or)
+este solo funciona si el primero no es correcto, por ejemplo 'whoami && ls' si whoami falla si ejecutara el ls,
+si whoami funciona no se ejecutara el ls.
+
+#comando - 'echo $?'
+esto nos dice si el comando anterior fue exitoso o no, si es exitoso nos mostrara un 0,
+los numeros de error son mas variados.
+
+#comando - 'comandoMalEscrito 2>/dev/null'
+el /dev/null es como un agujero negro, ahi le estamos diciendo que si el comando tira error que no nos lo muestra en el output.
+
+#comando - 'algoParaEjecutarse &'
+si queremos poner algo en segundo plano simpre poner & al final, de esta forma se hace este proceso como hijo del proceso original osea la consola,
+lo unico que nos mostrara por consola es el PID osea el numero de proceso identificativo.
+
+#comando - 'algoParaEjecutarse & disown'
+de esta forma lo ponemos en segundo plano pero de forma independiente.
