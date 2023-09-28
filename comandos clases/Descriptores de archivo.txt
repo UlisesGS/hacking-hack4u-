@@ -1,0 +1,23 @@
+#comando - 'exec cualquierComando'
+Cuando se utiliza exec, el programa o comando especificado reemplaza al shell actual, y cuando finaliza, el proceso de shell también finaliza.
+Es importante tener cuidado al usar exec, ya que si el programa o comando especificado tiene un error o termina inesperadamente, puede cerrar tu sesión actual de shell.
+
+
+#comando - '3<'
+ahi estamos haciendo un descriptor de archivo identificado con el numero 3, el simbolo menor < representa que este archivo va ser solo de lectura.
+
+#comando - '3>'
+ahi estamos haciendo un descriptor de archivo identificado con el numero 3, el simbolo mayor < representa que este archivo va ser solo de escritura.
+
+#comando - '3<>'
+ahi estamos haciendo un descriptor de archivo identificado con el numero 3, los simbolos de mayor o menor < representa que este archivo va ser de lectura y escritura.
+
+#comando - 'exec 3>&-'
+ponemos el 3 por el nombre que le pusimos a nuestro identificador de archivo, este comando lo que hace es que nos cierre el descriptor, sin perder el contenido.
+
+#comando - 'exec 5>&3'
+lo que estamos haciendo es creando un nuevo archivo con identificador 5 copiando todo lo que tenemos en el 3.
+
+#comando - 'exec 5>&3-'
+lo que estamos haciendo es creando un nuevo archivo con identificador 5 copiando todo lo que tenemos en el 3, y si anteriormente no cerramos el 3 y queremos hacerlo,
+simplemente le agregamos el - al final.

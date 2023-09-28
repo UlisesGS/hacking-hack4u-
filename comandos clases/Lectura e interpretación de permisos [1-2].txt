@@ -1,0 +1,19 @@
+#comando - 'touch algunArchivo'
+con touch podemos crear un archivo.
+
+#comando - 'nano algunArchivo'
+con nano podemos crear un archivo y luego al mismo tiempo agregarle ya contenido.
+
+#comando - 'echo "adios" > algunArchivo'
+si queremos agregar algo al archivo usamos el >, pero cuando despues agreguemos otra cosa no lo va a estar apilanbdo.
+
+#comando - 'echo "adios" >> algunArchivo'
+si queremos agregar algo al archivo y que si se apile usamos doble >>.
+
+
+#comando - 'rm algunArchivo'
+el rm se usa para eliminar algo.
+
+#comando - 'vi algunArchivo'
+entramos al archivo y luego apretamos la tecla i, podemos agregar o editar las cosas. Despues apretamos esc shift y : nos abre para con q salir sin 
+guardar nada w para guardar y wq para hacer las dos cosas.
